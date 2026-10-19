@@ -137,4 +137,4 @@ DB_HOST=localhost
 * Add authentication system
 * Build React-based frontend
 
-Preetham Pusala
+Mylapalli Chaitanya
