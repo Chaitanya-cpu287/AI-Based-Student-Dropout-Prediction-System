@@ -1,0 +1,216 @@
+{
+  "admins": [
+    {
+      "id": 1,
+      "admin_id": "admin",
+      "name": "System Administrator",
+      "password": "admin123",
+      "created_at": "2026-11-15T17:13:12.197Z"
+    },
+    {
+      "id": 2,
+      "admin_id": "admin2",
+      "name": "Academic Dean",
+      "password": "admin123",
+      "created_at": "2026-11-15T17:13:12.200Z"
+    }
+  ],
+  "mentors": [
+    {
+      "id": 1,
+      "mentor_id": "MNT101",
+      "name": "Dr. Sarah Jenkins",
+      "email": "sarah.jenkins@university.edu",
+      "password": "mentor123",
+      "created_at": "2026-11-15T17:13:12.200Z"
+    },
+    {
+      "id": 2,
+      "mentor_id": "MNT102",
+      "name": "Prof. Rajesh Sharma",
+      "email": "rajesh.sharma@university.edu",
+      "password": "mentor123",
+      "created_at": "2026-11-15T17:13:12.200Z"
+    },
+    {
+      "id": 3,
+      "mentor_id": "MNT103",
+      "name": "Dr. Elena Rostova",
+      "email": "elena.rostova@university.edu",
+      "password": "mentor123",
+      "created_at": "2026-11-15T17:13:12.200Z"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "admission_id": "ADM101",
+      "name": "Aarav Patel",
+      "email": "aarav.patel@student.edu",
+      "date_of_birth": "2004-05-15",
+      "attendance": 92.5,
+      "marks": 88,
+      "study_hours": 5.5,
+      "distance_from_home": 4,
+      "annual_income": 650000,
+      "previous_marks": 85,
+      "backlogs": 0,
+      "assignments_completed": 95,
+      "participation": 8.5
+    },
+    {
+      "id": 2,
+      "admission_id": "ADM102",
+      "name": "Diya Sharma",
+      "email": "diya.sharma@student.edu",
+      "date_of_birth": "2003-11-20",
+      "attendance": 68,
+      "marks": 58,
+      "study_hours": 2.5,
+      "distance_from_home": 12,
+      "annual_income": 320000,
+      "previous_marks": 62,
+      "backlogs": 1,
+      "assignments_completed": 65,
+      "participation": 5
+    },
+    {
+      "id": 3,
+      "admission_id": "ADM103",
+      "name": "Rohan Kumar",
+      "email": "rohan.kumar@student.edu",
+      "date_of_birth": "2004-02-10",
+      "attendance": 42,
+      "marks": 35,
+      "study_hours": 1,
+      "distance_from_home": 18,
+      "annual_income": 180000,
+      "previous_marks": 40,
+      "backlogs": 4,
+      "assignments_completed": 38,
+      "participation": 2
+    },
+    {
+      "id": 4,
+      "admission_id": "ADM104",
+      "name": "Ananya Verma",
+      "email": "ananya.verma@student.edu",
+      "date_of_birth": "2003-08-25",
+      "attendance": 88,
+      "marks": 82,
+      "study_hours": 4,
+      "distance_from_home": 6,
+      "annual_income": 540000,
+      "previous_marks": 80,
+      "backlogs": 0,
+      "assignments_completed": 90,
+      "participation": 7.5
+    },
+    {
+      "id": 5,
+      "admission_id": "ADM105",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@student.edu",
+      "date_of_birth": "2004-09-12",
+      "attendance": 64,
+      "marks": 52,
+      "study_hours": 2,
+      "distance_from_home": 15,
+      "annual_income": 280000,
+      "previous_marks": 55,
+      "backlogs": 2,
+      "assignments_completed": 58,
+      "participation": 4
+    },
+    {
+      "id": 6,
+      "admission_id": "ADM106",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@student.edu",
+      "date_of_birth": "2004-01-30",
+      "attendance": 95,
+      "marks": 91,
+      "study_hours": 6,
+      "distance_from_home": 3,
+      "annual_income": 780000,
+      "previous_marks": 92,
+      "backlogs": 0,
+      "assignments_completed": 98,
+      "participation": 9
+    },
+    {
+      "id": 7,
+      "admission_id": "ADM107",
+      "name": "Karan Mehta",
+      "email": "karan.mehta@student.edu",
+      "date_of_birth": "2003-12-05",
+      "attendance": 38,
+      "marks": 32,
+      "study_hours": 1,
+      "distance_from_home": 22,
+      "annual_income": 150000,
+      "previous_marks": 36,
+      "backlogs": 5,
+      "assignments_completed": 30,
+      "participation": 1.5
+    },
+    {
+      "id": 8,
+      "admission_id": "ADM108",
+      "name": "Pooja Nair",
+      "email": "pooja.nair@student.edu",
+      "date_of_birth": "2004-07-18",
+      "attendance": 84,
+      "marks": 78,
+      "study_hours": 3.5,
+      "distance_from_home": 8,
+      "annual_income": 460000,
+      "previous_marks": 75,
+      "backlogs": 0,
+      "assignments_completed": 85,
+      "participation": 7
+    }
+  ],
+  "mentor_students": [
+    {
+      "id": 1,
+      "mentor_id": 1,
+      "student_id": 1
+    },
+    {
+      "id": 2,
+      "mentor_id": 1,
+      "student_id": 2
+    },
+    {
+      "id": 3,
+      "mentor_id": 1,
+      "student_id": 3
+    },
+    {
+      "id": 4,
+      "mentor_id": 1,
+      "student_id": 4
+    },
+    {
+      "id": 5,
+      "mentor_id": 2,
+      "student_id": 5
+    },
+    {
+      "id": 6,
+      "mentor_id": 2,
+      "student_id": 6
+    },
+    {
+      "id": 7,
+      "mentor_id": 2,
+      "student_id": 7
+    },
+    {
+      "id": 8,
+      "mentor_id": 2,
+      "student_id": 8
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "model_name": "EduGuard Ensemble Voting Classifier (RF + XGB + LogReg)",
+  "features": [
+    "attendance",
+    "marks",
+    "study_hours",
+    "distance_from_home",
+    "annual_income",
+    "previous_marks",
+    "backlogs",
+    "assignments_completed",
+    "participation"
+  ],
+  "metrics": {
+    "accuracy": 0.838,
+    "roc_auc": 0.8879,
+    "precision": 0.7406,
+    "recall": 0.5496,
+    "f1_score": 0.631,
+    "brier_score": 0.111,
+    "cv_accuracy_mean": 0.8439,
+    "cv_accuracy_std": 0.0094,
+    "cv_auc_mean": 0.8872
+  },
+  "feature_importances": {
+    "backlogs": 0.3484,
+    "attendance": 0.141,
+    "marks": 0.1122,
+    "annual_income": 0.1038,
+    "assignments_completed": 0.0881,
+    "participation": 0.0558,
+    "study_hours": 0.0525,
+    "distance_from_home": 0.0511,
+    "previous_marks": 0.0471
+  },
+  "feature_stats": {
+    "attendance": {
+      "mean": 80.96,
+      "std": 9.66,
+      "min": 39.2,
+      "max": 100.0
+    },
+    "marks": {
+      "mean": 68.79,
+      "std": 9.94,
+      "min": 27.9,
+      "max": 100.0
+    },
+    "study_hours": {
+      "mean": 3.98,
+      "std": 1.05,
+      "min": 1.0,
+      "max": 7.8
+    },
+    "distance_from_home": {
+      "mean": 10.03,
+      "std": 6.22,
+      "min": 1.0,
+      "max": 35.0
+    },
+    "annual_income": {
+      "mean": 355536.89,
+      "std": 225304.01,
+      "min": 120000.0,
+      "max": 1500000.0
+    },
+    "previous_marks": {
+      "mean": 73.77,
+      "std": 13.82,
+      "min": 30.0,
+      "max": 100.0
+    },
+    "backlogs": {
+      "mean": 0.97,
+      "std": 1.14,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "assignments_completed": {
+      "mean": 64.53,
+      "std": 11.63,
+      "min": 21.1,
+      "max": 100.0
+    },
+    "participation": {
+      "mean": 6.7,
+      "std": 1.45,
+      "min": 1.2,
+      "max": 10.0
+    }
+  }
+}
